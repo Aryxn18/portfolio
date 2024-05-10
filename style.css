@@ -565,6 +565,17 @@ a {
 .skills-logo:hover {
   scale: 1.2;
 }
+
+.not-learned{
+  transition: none;
+  filter: grayscale(1);
+  opacity: 0.4;
+}
+
+.not-learned:hover{
+  scale: 1;
+}
+
 .skill-heading {
   font-size: 50px;
   font: bold;
